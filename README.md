@@ -29,7 +29,7 @@ Built using [Cursor](https://www.cursor.so/) and tested with [Remix IDE](https:/
 
 The contract uses a `User` struct and two mappings:
 
-```solidity
+
 struct User {
   string name;
   uint age;
@@ -68,37 +68,45 @@ This contract was tested using **Remix VM (Prague)** in the browser. No real ETH
 
 ```solidity
 register("Marina", 32, "marina@email.com")
+```
 
 ![Register](./images/RegisterSolidityRemix.png)
 
-2. Update your profile
 
+### 2. Update your profile
+
+```solidity
 updateProfile("Raquel", 43, "raquel@gmail.com")
+```
 
 ![Update](./images/UpdateSolidityRemix.png)
 
-3. Get Profile Info
+### 3. Get Profile Info
 
+```solidity
 getProfile(0xYourRemixAddress)
+```
 
 ![Get](./images/GetAddressSolidityRemix.png)
 
 ---
 
-📁 Project Structure
-
+## 📁 Project Structure
+```
 profile-smart-contract/
 ├── UserProfile.sol
 ├── README.md
 ├── .gitignore
 └── images/
-    ├── RegisterSolidityRemix.png
-    ├── UpdateSolidityRemix.png
-    └── GetAddressSolidityRemix.png
-
+├── RegisterSolidityRemix.png
+├── UpdateSolidityRemix.png
+└── GetAddressSolidityRemix.png
+```
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Sonia Vera Gallego
-@douxxiie · Dev3Pack · Building on Base and Farcaster
+
+
+[@douxxiie](https://x.com/Douxxiie) · [Dev3Pack fellow](https://dev3pack.xyz/) · Building on [Base](https://www.base.org/) and [Farcaster](https://farcaster.xyz/)
