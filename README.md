@@ -37,6 +37,10 @@ struct User {
   uint registrationTime;
 }
 ```
+```solidity
+mapping(address => User) private users;
+mapping(address => bool) private isRegistered;
+```
 
 ## 📄 Main functions
 
