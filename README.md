@@ -17,7 +17,7 @@ Built using [Cursor](https://www.cursor.so/) and tested with [Remix IDE](https:/
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Built with
 
 - Cursor – for writing and managing Solidity code
 - [Remix IDE](https://remix.ethereum.org/) – for testing and simulation
@@ -25,19 +25,20 @@ Built using [Cursor](https://www.cursor.so/) and tested with [Remix IDE](https:/
 
 ---
 
-## 📄 Contract Overview
+## 📄 Contract overview
 
 The contract uses a `User` struct and two mappings:
 
-
+```solidity
 struct User {
   string name;
   uint age;
   string email;
   uint registrationTime;
 }
+```
 
-## 📄 Main Functions
+## 📄 Main functions
 
 | Function                                             | Description                                       |
 |------------------------------------------------------|---------------------------------------------------|
@@ -62,9 +63,9 @@ This contract was tested using **Remix VM (Prague)** in the browser. No real ETH
 
 ---
 
-## 📝 Example Test Flow
+## 📝 Example test flow
 
-### 1. Register a User
+### 1. Register a user
 
 ```solidity
 register("Marina", 32, "marina@email.com")
@@ -81,7 +82,7 @@ updateProfile("Raquel", 43, "raquel@gmail.com")
 
 ![Update](./images/UpdateSolidityRemix.png)
 
-### 3. Get Profile Info
+### 3. Get profile info
 
 ```solidity
 getProfile(0xYourRemixAddress)
@@ -91,7 +92,7 @@ getProfile(0xYourRemixAddress)
 
 ---
 
-## 📁 Project Structure
+## 📁 Project structure
 ```
 profile-smart-contract/
 ├── UserProfile.sol
